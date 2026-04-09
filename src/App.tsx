@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Trophy, TrendingUp, BarChart3, Users, Gift, Calendar, ExternalLink, Menu } from 'lucide-react';
+import { Trophy, TrendingUp, BarChart3, Users, Gift, Calendar, ExternalLink } from 'lucide-react';
 import { motion } from 'motion/react';
 
 export default function App() {
@@ -37,10 +37,7 @@ export default function App() {
             VERSE
           </span>
         </div>
-        <button className="flex items-center gap-2 bg-purple-600 hover:bg-purple-500 transition-colors px-4 py-2 rounded-full text-sm font-bold shadow-lg shadow-purple-600/20">
-          <Menu size={18} />
-          <span>Menu</span>
-        </button>
+
       </header>
 
       <main className="max-w-2xl mx-auto p-6 space-y-6">
